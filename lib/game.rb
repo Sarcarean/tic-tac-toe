@@ -23,7 +23,7 @@ class Game
 	end	
   end
 
-  #Returns if this game is a tie
+  #Indicates if this game is a tie
   def tie?
 	if @my_board.full?
 	  return true
