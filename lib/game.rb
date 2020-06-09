@@ -15,10 +15,7 @@ class Game
   
   #Returns the value of is the game is over
   def over?
-	if @my_board==nil
-	  return false
-	end
-	if @my_board.full?
+	if not @my_board==nil and @my_board.full?
 	  return true
 	end
   end
